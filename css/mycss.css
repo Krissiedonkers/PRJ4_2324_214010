@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+.pipi{color: #BE181B;}
+
+.lala{font-family: "Micro 5", sans-serif;}
+
+#haha{color: #6DAFD4;}
+
+
+.mybox{
+    width: 300px;
+    height: 100px;
+    border-style: solid;
+    border-color: #C90C0F;
+    background-color: #F1A3F1;
+    margin-top: 26px;
+    margin-right: 26px;
+    margin-bottom: 26px;
+    margin-left: 121px;
+    padding-top: 14px;
+    padding-right: 14px;
+    padding-bottom: 14px;
+    padding-left: 14px;
+}
+
+.btn{background-color:#A31518;}
+
+.btn-warning{background-color: #FCA8A9;}
+
+.myzaza{background-color:#912088;}
+
+.mycol1{background-color: #F57DE4}
+
+.mycol2{background-color: #6DBEF4}
+
+.mycol3{background-color: #F4FA98}
+
+.mycol4{background-color: #63F787}
