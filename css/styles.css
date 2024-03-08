@@ -7,36 +7,43 @@
 
 body {
 	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color: #202030;
+	color:#BEBEBE;
 	background-color: #f8f8fc;
 }
 
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-    background-color: #e0f0ff;
+    background-color: #C60764;
+    font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+    color: #FFFFFF;
 }
 
 .resume-main {
-	background-color: #fffefc;
+    background-color: #fffefc;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    color: #494949;
+    text-shadow: 0px 0px #2F2F2F;
 }
 
 .resume-aside {
-	background-color: #fff0e0;
+    background-color: #FDE1EF;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    color: #494949;
 }
 
 /* Styles for lists in the document */
 
 .biography-details li::before, .skill-list li::before {
-	content: ">";
-	font-weight: 800;
-	display: inline-block;
-	width: 1em;
-	margin-left: -1em;
+    content: ">";
+    font-weight: 800;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
 }
 
 .biography-details li::before {
-	color: #EE7623;
+	color:#C60764;
 }
 
 .biography-details li, .skill-list li {
@@ -48,4 +55,16 @@ body {
 .contact-icon {
 	height: 1em;
 	flex-basis: 1.4em;
+}
+
+.belowtitle{
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
+
+.titles{
+    background-color:hsla(331,87%,94%,1.00);
+    font-style: normal;
+    font-weight: bold;
+    color: #FFFFFF;
+    
 }
